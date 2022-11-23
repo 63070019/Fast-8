@@ -638,6 +638,8 @@ form {
     /* margin-left: 80vmax; */
     animation: walk_in 6s  linear,fade 1s linear infinite;
     z-index: 9;
+    opacity: 0;
+    display: none;
 }
 .driver_walk_04{
     width: 3vw;
@@ -648,6 +650,8 @@ form {
     position: absolute;
     animation: walk_in 6s  linear, fade 1s 0.5s linear infinite;
     z-index: 9;
+    opacity: 0;
+    display: none;
 }
 .start_door_container{
     width: 100vw;
